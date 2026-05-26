@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Marco Aurelio Evangelista - Desenvolvimento Web, Automação e UI Design." />
+  <title>Marco Aurelio Evangelista | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#inicio" class="logo" aria-label="Ir para o início"><span>Marco</span>Aurelio</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#ferramentas">Ferramentas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-content reveal">
+        <p class="tag">Portfólio Pessoal</p>
+        <h1>Marco Aurelio Evangelista</h1>
+        <h2>Estudante de Sistemas de Informação | Desenvolvimento Web, Automação e UI Design</h2>
+        <p class="hero-text">Desenvolvo interfaces, landing pages e soluções digitais com foco em organização, estética, responsividade e funcionalidade.</p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary">Ver projetos</a>
+          <a href="#contato" class="btn btn-secondary">Entrar em contato</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="profile-wrapper">
+          <img src="assets/perfil.png" alt="Foto de Marco Aurelio Evangelista" class="profile-img" />
+        </div>
+        <div class="mini-info">
+          <span>📍 Aracaju - SE</span>
+          <span>💻 Web, Automação e Design</span>
+          <span>🎯 Em busca de estágio</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="section-title reveal">
+        <p class="tag">Sobre mim</p>
+        <h2>Quem sou eu</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>Sou estudante de Sistemas de Informação e tenho formação técnica em Informática para Internet. Minha trajetória começou na área de suporte de TI, onde desenvolvi uma base prática em tecnologia, organização, resolução de problemas e atendimento a usuários.</p>
+          <p>Atualmente, direciono meus estudos para desenvolvimento web, automação e design de interfaces. Tenho interesse em criar páginas modernas, funcionais e bem estruturadas, unindo estética, tecnologia e boa experiência para o usuário.</p>
+          <p>Também venho desenvolvendo noções de prototipação, organização visual e criação de interfaces utilizando ferramentas como Figma, WordPress, Elementor e tecnologias front-end.</p>
+        </div>
+
+        <div class="about-highlight reveal">
+          <h3>Interesses principais</h3>
+          <ul>
+            <li>Desenvolvimento Front-end</li>
+            <li>UI Design e prototipação no Figma</li>
+            <li>WordPress, Elementor e landing pages</li>
+            <li>Automação de processos digitais</li>
+            <li>Gestão e organização de projetos web</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="portfolio">
+      <div class="section-title reveal">
+        <p class="tag">Portfólio</p>
+        <h2>Projetos em destaque</h2>
+        <p class="section-subtitle">Projetos acadêmicos e práticos desenvolvidos com foco em desenvolvimento web, design de interfaces e automação.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <img src="assets/sergipanidade.png" alt="Print do projeto Sergipanidade" />
+          <div class="project-content">
+            <div class="project-tags"><span>React</span><span>TypeScript</span><span>SCSS</span></div>
+            <h3>Sergipanidade</h3>
+            <p>Projeto acadêmico em desenvolvimento de uma interface web/app voltada ao turismo em Sergipe. A aplicação possui páginas de login, home, mapa e estabelecimentos, com foco em organização visual, navegação, cards de locais turísticos e identidade regional.</p>
+            <span class="project-status">Em desenvolvimento</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <img src="assets/evoluafit.png" alt="Print do projeto EvoluaFit" />
+          <div class="project-content">
+            <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+            <h3>EvoluaFit</h3>
+            <p>Landing page acadêmica para consultoria fitness online, desenvolvida com foco em apresentação de serviço, organização visual, responsividade, seções informativas e experiência do usuário.</p>
+            <div class="project-buttons">
+              <a href="https://sweet-gumption-1e8d3c.netlify.app/#imc" target="_blank" rel="noopener noreferrer" class="project-link">Ver projeto</a>
+              <a href="https://github.com/marcoasantos27-source/evoluafit" target="_blank" rel="noopener noreferrer" class="project-link project-link-dark">Ver código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <img src="assets/autoflow.png" alt="Print do projeto AutoFlow" />
+          <div class="project-content">
+            <div class="project-tags"><span>WordPress</span><span>n8n</span><span>Automação</span></div>
+            <h3>AutoFlow</h3>
+            <p>Landing page desenvolvida para apresentar uma solução de automação digital, com foco em organização de vendas, tarefas e atendimento. O projeto explora estrutura visual moderna, chamada para ação, apresentação de recursos e proposta de valor.</p>
+            <div class="project-buttons">
+              <a href="https://cozy-malasada-972d17.netlify.app/#recursos" target="_blank" rel="noopener noreferrer" class="project-link">Ver projeto</a>
+              <a href="https://github.com/marcoasantos27-source/AutoFlow" target="_blank" rel="noopener noreferrer" class="project-link project-link-dark">Ver código</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills" id="habilidades">
+      <div class="section-title reveal">
+        <p class="tag">Habilidades</p>
+        <h2>Competências desenvolvidas</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal"><div class="skill-header"><span>HTML5</span><strong>85%</strong></div><div class="progress"><span style="--level: 85%"></span></div></div>
+        <div class="skill-card reveal"><div class="skill-header"><span>CSS3 / Responsividade</span><strong>80%</strong></div><div class="progress"><span style="--level: 80%"></span></div></div>
+        <div class="skill-card reveal"><div class="skill-header"><span>JavaScript</span><strong>65%</strong></div><div class="progress"><span style="--level: 65%"></span></div></div>
+        <div class="skill-card reveal"><div class="skill-header"><span>Figma / Prototipação</span><strong>65%</strong></div><div class="progress"><span style="--level: 65%"></span></div></div>
+        <div class="skill-card reveal"><div class="skill-header"><span>WordPress / Elementor</span><strong>70%</strong></div><div class="progress"><span style="--level: 70%"></span></div></div>
+        <div class="skill-card reveal"><div class="skill-header"><span>Automação com n8n</span><strong>65%</strong></div><div class="progress"><span style="--level: 65%"></span></div></div>
+      </div>
+    </section>
+
+    <section class="section tools" id="ferramentas">
+      <div class="section-title reveal">
+        <p class="tag">Ferramentas</p>
+        <h2>Ferramentas que utilizo</h2>
+        <p class="section-subtitle">Tecnologias e plataformas que fazem parte dos meus estudos e projetos práticos.</p>
+      </div>
+
+      <div class="tools-grid">
+        <div class="tool-card reveal"><span>🎨</span><h3>Figma</h3><p>Prototipação, wireframes e organização visual de interfaces.</p></div>
+        <div class="tool-card reveal"><span>🌐</span><h3>WordPress</h3><p>Criação de páginas, landing pages e estruturação visual com CMS.</p></div>
+        <div class="tool-card reveal"><span>🧩</span><h3>Elementor</h3><p>Construção visual de páginas com foco em layout e responsividade.</p></div>
+        <div class="tool-card reveal"><span>⚡</span><h3>n8n</h3><p>Automação de fluxos, formulários, e-mail e integrações digitais.</p></div>
+        <div class="tool-card reveal"><span>💻</span><h3>VS Code</h3><p>Ambiente principal para desenvolvimento front-end.</p></div>
+        <div class="tool-card reveal"><span>🔗</span><h3>GitHub</h3><p>Versionamento, organização e publicação de projetos.</p></div>
+        <div class="tool-card reveal"><span>📌</span><h3>Trello</h3><p>Organização de tarefas e acompanhamento de projetos.</p></div>
+        <div class="tool-card reveal"><span>🚀</span><h3>Framer/Wix</h3><p>Ferramentas no-code em fase de estudo e exploração.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="section-title reveal">
+        <p class="tag">Contato</p>
+        <h2>Vamos conversar?</h2>
+        <p class="section-subtitle">Entre em contato pelo formulário ou pelos canais abaixo.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Informações</h3>
+          <a href="mailto:marcoev.tec@gmail.com">marcoev.tec@gmail.com</a>
+          <a href="https://wa.me/5579981373517" target="_blank" rel="noopener noreferrer">WhatsApp: (79) 98137-3517</a>
+          <a href="https://www.linkedin.com/in/marco-aurelioev" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="http://www.github.com/marcoasantos27-source" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <div class="map-wrapper">
+            <iframe title="Localização em Aracaju - SE" src="https://www.google.com/maps?q=Aracaju-SE&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group"><label for="name">Nome</label><input type="text" id="name" name="name" placeholder="Digite seu nome" /><small class="error-message"></small></div>
+          <div class="form-group"><label for="email">E-mail</label><input type="email" id="email" name="email" placeholder="Digite seu e-mail" /><small class="error-message"></small></div>
+          <div class="form-group"><label for="message">Mensagem</label><textarea id="message" name="message" rows="5" placeholder="Digite sua mensagem"></textarea><small class="error-message"></small></div>
+          <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+          <p class="success-message" id="successMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Marco Aurelio Evangelista. Desenvolvido com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
