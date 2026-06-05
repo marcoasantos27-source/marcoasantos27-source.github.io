@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">Calculadora</title><desc id="desc">Ilustração de uma calculadora digital</desc>
+<rect width="900" height="520" fill="#eaf2ff"/><circle cx="110" cy="110" r="70" fill="#dbeafe"/><circle cx="820" cy="440" r="105" fill="#bfdbfe"/>
+<rect x="322" y="48" width="256" height="424" rx="30" fill="#0f172a"/><rect x="352" y="80" width="196" height="72" rx="13" fill="#dbeafe"/><text x="528" y="130" text-anchor="end" font-family="Arial" font-size="38" font-weight="700" fill="#1d4ed8">123</text>
+<g fill="#f8fafc"><rect x="352" y="184" width="42" height="42" rx="10"/><rect x="404" y="184" width="42" height="42" rx="10"/><rect x="456" y="184" width="42" height="42" rx="10"/><rect x="352" y="236" width="42" height="42" rx="10"/><rect x="404" y="236" width="42" height="42" rx="10"/><rect x="456" y="236" width="42" height="42" rx="10"/><rect x="352" y="288" width="42" height="42" rx="10"/><rect x="404" y="288" width="42" height="42" rx="10"/><rect x="456" y="288" width="42" height="42" rx="10"/><rect x="352" y="340" width="94" height="42" rx="10"/><rect x="456" y="340" width="42" height="42" rx="10"/></g>
+<g fill="#60a5fa"><rect x="508" y="184" width="40" height="42" rx="10"/><rect x="508" y="236" width="40" height="42" rx="10"/><rect x="508" y="288" width="40" height="94" rx="10"/></g>
+<text x="450" y="493" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#1e3a8a">Calculadora</text>
+</svg>

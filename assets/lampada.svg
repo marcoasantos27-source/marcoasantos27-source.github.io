@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">Lâmpada interativa</title><desc id="desc">Ilustração de uma lâmpada acesa</desc>
+<rect width="900" height="520" fill="#fff8df"/><circle cx="450" cy="212" r="146" fill="#fde68a" opacity=".5"/><circle cx="450" cy="212" r="106" fill="#fef3c7" stroke="#f59e0b" stroke-width="12"/><path d="M391 282c16 23 20 43 20 74h78c0-31 5-51 20-74" fill="#fbbf24" stroke="#f59e0b" stroke-width="10"/><rect x="410" y="354" width="80" height="28" rx="10" fill="#475569"/><rect x="417" y="386" width="66" height="23" rx="10" fill="#64748b"/><path d="M450 42v-32M254 112l-28-17M646 112l28-17M252 312l-31 16M648 312l31 16M320 58l-21-25M580 58l21-25" stroke="#f59e0b" stroke-width="12" stroke-linecap="round"/>
+<text x="450" y="475" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#92400e">Lâmpada Interativa</text>
+</svg>

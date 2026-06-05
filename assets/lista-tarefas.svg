@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">Lista de tarefas</title><desc id="desc">Ilustração de um quadro com tarefas marcadas</desc>
+<rect width="900" height="520" fill="#ecfdf5"/><rect x="225" y="65" width="450" height="370" rx="25" fill="#fff" stroke="#a7f3d0" stroke-width="8"/><rect x="340" y="42" width="220" height="54" rx="18" fill="#059669"/><g fill="none" stroke="#059669" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><path d="M287 157l17 17 31-36"/><path d="M287 241l17 17 31-36"/><path d="M287 325l17 17 31-36"/></g><g stroke="#64748b" stroke-width="12" stroke-linecap="round"><path d="M380 157h206"/><path d="M380 241h165"/><path d="M380 325h188"/></g>
+<text x="450" y="490" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#065f46">Lista de Tarefas</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">Jogo Zero ou Um</title><desc id="desc">Ilustração com os números zero e um</desc>
+<rect width="900" height="520" fill="#f3e8ff"/><circle cx="315" cy="238" r="145" fill="#ddd6fe"/><circle cx="585" cy="238" r="145" fill="#c4b5fd"/><text x="315" y="308" text-anchor="middle" font-family="Arial" font-size="210" font-weight="800" fill="#5b21b6">0</text><text x="585" y="308" text-anchor="middle" font-family="Arial" font-size="210" font-weight="800" fill="#4c1d95">1</text><path d="M450 94l17 29 34 7-23 25 4 35-32-15-32 15 4-35-23-25 34-7z" fill="#fbbf24"/>
+<text x="450" y="477" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#4c1d95">Jogo Zero ou Um</text>
+</svg>
